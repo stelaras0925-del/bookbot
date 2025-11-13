@@ -17,7 +17,7 @@ def main():
     num_words = get_num_words(file_text)
     num_characters = get_num_characters(file_text)
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {sys.argv[1]}...")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
     print("--------- Character Count -------")    
